@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom('mpath', 'glmregNB', 'cv.glmregNB')
+importFrom('Matrix', 'Matrix', 'rankMatrix')
+importFrom('MASS', 'glm.nb')
+import('glmnet', 'stats', 'ggplot2')
